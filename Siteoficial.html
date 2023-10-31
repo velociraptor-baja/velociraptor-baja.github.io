@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velociraptor Baja</title>
+    <!--Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!--Scripts do Bootstrap-->
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- Font Awesome do Carinha -->
+    <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+    <!-- Progress Bar-->
+    <script src="js/progressbar.min.js"></script>
+    <!--Parallax-->
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+    
+</head>
+<body>
+  <header>
+    <div class="container" id="nav-container">
+      <!-- add essa class -->
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark">             
+        <a class="navbar-brand" href="Siteoficial.html">                    <!--Logo do Site img/Logo.jpg -->
+          <img id="logo" src="img/download.png" alt="hDC Agency"> Velociraptor Baja
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>                 <!--Barra de navegação linha 38 à 50 -->  
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" id="home-menu" href="Siteoficial.html">Velociraptor</a>  <!--</span> -->
+            <a class="nav-item nav-link" id="about-menu" href="Subsistemas.html">SUB</a> 
+            <a class="nav-item nav-link" id="services-menu" href="Pops.html">POP</a>
+            <a class="nav-item nav-link" id="team-menu" href="Action_Tracker.html">Action Tracker</a>
+            <a class="nav-item nav-link" id="portfolio-menu" href="Universidade.html">Universidade</a>
+            <a class="nav-item nav-link" id="portfolio-menu" href="Biblioteca.html">Biblioteca</a>
+            <a class="nav-item nav-link" id="contact-menu" href="#">Configurações</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+    <main>    
+            <div class="container-fluid"> <!-- Slide -->
+                <div id="mainSlider" class="carousel slide" data-ride="carousel"> <!-- Biblioteca slide-->
+                    <ol class="carousel-indicators"> <!-- Passador slide-->
+                        <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+                        <li data-target="#mainSlider" data-slide-to="1"></li>
+                        <li data-target="#mainSlider" data-slide-to="2"></li>
+                        <li data-target="#mainSlider" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner"> <!--  slide 1 -->
+                        <div class="carousel-item active">
+                            <img src="img/Action Tracker.png " class="d-block w-100" alt="Actiontracker">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Action Tracker</h2> <!-- Legenda slide 1 -->
+                                <p>Atividades</p>
+                                <a href="Action_Tracker.html" class="main-btn">Ver Action Tracker</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item"> <!--  slide 2 -->
+                            <img src="img/POPS.jpg" class="d-block w-100" alt="POP">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>POP'S</h2> <!-- Legenda slide 2 -->
+                                <p>Atividades</p>
+                                <a href="Pops.html" class="main-btn">Ver POP'S</a>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item"> <!--  slide 3 -->
+                            <img src="img/livros.png" class="d-block w-100" alt="Universidade">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Universidade</h2> <!-- Legenda slide 3 -->
+                                <p>Atividades</p>
+                                <a href="Universidade.html" class="main-btn">Ver Universidade</a>
+                            </div>    
+                        </div>
+                        <div class="carousel-item"> <!--  slide 4 -->
+                            <img src="img/POPS.jpg" class="d-block w-100" alt="Biblioteca">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Biblioteca</h2> <!-- Legenda slide 4 -->
+                                <p>Atividades</p>
+                                <a href="Biblioteca.html" class="main-btn">Ver Biblioteca</a>
+
+                            </div>
+                        </div>
+                    </div>                                            
+                    <a href="#mainSlider" class="carousel-control-prev" role="button" data-slide="prev">  <!-- Setas de passar os slides 94 à 102 -->
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a href="#mainSlider" class="carousel-control-next" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>     <!-- aq-->
+                </div>
+                <div class="caixa"> <!--  Caixa a direita  -->
+                    <div class="titulo2">VELOCIRAPTOR</div>
+        
+                    <!-- Links na caixa -->
+                        <ul class="links1">
+                            <li>
+                                <a href="https://www.asaas.com/c/116854498703" target="_blank">
+                                    <img class="logo" src="img/Udesc_logo.jpg" alt="Logo 2">Compartilhe para doações avulsas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.asaas.com/c/045103004044" target="_blank">
+                                    <img class="logo" src="img/Udesc_logo.jpg" alt="Logo 2">Doação mensal opcional (Cartão)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.asaas.com/c/299450882642" target="_blank">
+                                    <img class="logo" src="img/Udesc_logo.jpg" alt="Logo 2">Doação mensal opcional (pix)</a>
+                            </li>    
+                            <li>    
+                            <a href="https://forms.office.com/pages/responsepage.aspx?id=qOS2pY7Fik6Xqaf1ZBWhHdcspgfrI-VEkB0niLbzKfNUNUdYMzlBQUpPOVlEV09IWDNGMUJKUlBQNyQlQCN0PWcu" target="_blank">
+                                <img class="logo" src="img/Udesc_logo.jpg" alt="Logo 2">Forms de saída da equipe</a>
+                            </li>
+                            <li>
+                                <a href="https://teams.microsoft.com/_?culture=en-us&country=us#/school/conversations/Geral?threadId=19:bgRlWEMgYglkyEAm1KaRKuXhmeJmPgE_DusdsfxNmMg1@thread.tacv2&ctx=channel" target="_blank">
+                                <img class="logo" src="img/Udesc_logo.jpg" alt="Logo 2"> Canal GERAL Teams</a>
+                            </li>
+                            <li>
+                                <a href="https://udesc.sharepoint.com/sites/CCT-GRP-VelociraptorBAJA/Lists/Senhas/AllItems.aspx" target="_blank">
+                                <img class="logo" src="img/Udesc_logo.jpg" alt="Logo 2">Senhas</a>
+                            </li>        
+                        </ul>
+
+                        <div class="titulo2">SAE</div>
+                        <ul class="links1">
+                            <li> 
+                                <a href="https://icase.newsae.itarget.com.br/estacao/index/index/evento/11" target="_blank">
+                                    <img class="logo" src="img/SAE_logo.png" alt="Logo 2">Emissão Carteita SAE</a>
+                            </li>
+                            <li>
+                                <a href="https://icase.newsae.itarget.com.br/estacao/index/index/evento/11" target="_blank">
+                                    <img class="logo" src="img/SAE_logo.png" alt="Logo 2">Cadastro Associação</a>
+                            </li>
+                            <li>
+                                <a href="https://certificado.bajasaebrasil.online/" target="_blank">
+                                    <img class="logo" src="img/SAE_logo.png" alt="Logo 2">Emissão certificados</a>
+                            <li>
+                                <a href="https://script.google.com/macros/s/AKfycbwEbXzW2I66nsqdCSyFZWJG3n8rDGBCpfX1RbWaLZcQpp4TTS8bcyykZE-8ymMzYyNA/exec" target="_blank">
+                                    <img class="logo" src="img/SAE_logo.png" alt="Logo 2">Entrega Relatório</a>
+                            </li>
+                            <li>
+                                <a href="https://resultados.bajasaebrasil.online/" target="_blank">
+                                    <img class="logo" src="img/SAE_logo.png" alt="Logo 2">Resultados</a>
+                            </li>
+                            <li>
+                                <a href="https://icongresso.newsae.itarget.com.br/estacao/index/index/evento/2332" target="_blank">
+                                    <img class="logo" src="img/SAE_logo.png" alt="Logo 2">Inscrição</a>
+                            </li>
+                            <li>    
+                                <a href="https://saebrasil.org.br/programas-estudantis/baja-sae-brasil/regras-e-relatorios-2/" target="_blank">
+                                 <img class="logo" src="img/SAE_logo.png" alt="Logo 2">Regras</a>
+                            </li>
+                            <li>     
+                                <a href="https://forum.bajasaebrasil.online/" target="_blank">
+                                 <img class="logo" src="img/SAE_logo.png" alt="Logo 2">Fórum</a>
+                            </li>       
+                            <li>
+                                <a href="Pops.html" target="_blank">
+                                 <img class="logo" src="img/SAE_logo.png" alt="Logo 2">Pops</a>
+                            </li>
+                            <li>     
+                                <a href="Subsistemas.html" target="_blank">
+                                 <img class="logo" src="img/SAE_logo.png" alt="Logo 2">SUBS</a>
+                            </li>
+                            <li>    
+                                <a href="Universidade.html" target="_blank">
+                                 <img class="logo" src="img/SAE_logo.png" alt="Logo 2">Universidade</a>
+                            </li>
+                        </ul>
+                    <div class="titulo2">UDESC</div>
+                        <ul class="links1">
+                            <li>
+                                <a href="https://siga.udesc.br/sigaSecurityG5/?pcaes=910ece32178d5df3793a76f03cb5a11b5dace5403c4960aaa7accdf7978f21d3e0b02406fe7cafa86ed6b05f82bb29d0e98bac7ab907e19f7259a660676b46d7993c7e4533bf5fb2f148886ee163b7ba1257a5411fa2478b29a252b83d517371b51d3034d9a9254a3e64837f01806d555510cac3ab4625173c3001c60473fa2b7302f51a009b45f6f9041b4fec062d8d" target="_blank">
+                                    <img class="logo" src="img/Udesc_logo.jpg" alt="Logo 2">Comprovante de matrícula</a>
+                            </li>
+                            <li>        
+                                <a href="https://www.joinville.udesc.br/portal/almoxarifado/formulario.php" target="_blank">
+                                    <img class="logo" src="img/Udesc_logo.jpg" alt="Logo 2">Requisição de materiais</a>
+                            </li>
+                            <li>    
+                                <a href="https://sas.sistemas.udesc.br/" target="_blank">
+                                    <img class="logo" src="img/Udesc_logo.jpg" alt="Logo 2">Agendamentos de salas</a>
+                            </li>
+                            <li>    
+                                <a href="https://sistemas.joinville.udesc.br/acesso/" target="_blank">
+                                    <img class="logo" src="img/Udesc_logo.jpg" alt="Logo 2">Acesso campus</a>
+                            </li>
+                            <li>
+                                <a href="https://www.udesc.br/documentos" target="_blank">
+                                    <img class="logo" src="img/Udesc_logo.jpg" alt="Logo 2">Documentos</a>
+                            </li>
+                            <li>
+                                <a href="https://certificados.sistemas.udesc.br/Certificados/MeusCertificados/index?opcao=listar" target="_blank">
+                                    <img class="logo" src="img/Udesc_logo.jpg" alt="Logo 2">Certificados</a>
+                            </li>
+                            <li> 
+                                <a href="https://sistemas.joinville.udesc.br/helpdesk/" target="_blank">
+                                    <img class="logo" src="img/Udesc_logo.jpg" alt="Logo 2">Helpdesk</a>
+                            </li>
+                            <li>  
+                                <a href="https://sistemas.joinville.udesc.br/ramais/" target="_blank">
+                                    <img class="logo" src="img/Udesc_logo.jpg" alt="Logo 2">Ramais</a>  
+                            </li>
+                        </ul>
+                    <div class="titulo2">ALUNO</div>
+                        <ul class="links1">
+                            <li>
+                                <a href="https://www.cct.udesc.br/?idFormulario=736" target="_blank">
+                                    <img class="logo" src="img/Udesc_logo.jpg" alt="Logo 2">Ajuste de matrícula por formulário</a>
+                            </li>
+                            <li>
+                                <a href="https://www.udesc.br/arquivos/faed/id_cpmenu/1103/Notas_Exames_Finais_15641750742861_1103.pdf" target="_blank">
+                                    <img class="logo" src="img/Udesc_logo.jpg" alt="Logo 2">Notas para aprovação Exame</a>
+                            </li>
+                            <li>
+                                <a href="https://www.secon.udesc.br/consepe/resol/2006/025-2006-cpe.pdf" target="_blank">
+                                    <img class="logo" src="img/Udesc_logo.jpg" alt="Logo 2">Tabela de faltas por matéria</a>
+                            </li>
+                                    
+                        </ul> 
+                    <div class="titulo2">FERRAMENTAS</div>
+                        <ul class="links1">
+                        <li>
+                                <a href="https://sso.acesso.gov.br/login?client_id=assinador.iti.br&authorization_id=18b80c82de6" target="_blank">
+                                    <img class="logo" src="img/gov_logo.png" alt="Logo 2">Assinador digital Serpo</a>
+                        </li>
+                        
+                        </ul>            
+
+                </div>        
+
+                <div id="About-area">     <!-- Sobre o Baja 104 à 131  -->
+                    <div class="container">  
+                        <div class="row">
+                            <div class="col-12">  <!-- Linha de 12 colunas -->
+                                <h3 class="main-title">Sobre o BAJA</h3>
+                            </div>
+                            <div class="col-md-6">
+                                <img class="img-fluid" src="img/Banner33.jpg" alt="Fto historia"> <!-- img class="img-fluid" para adptar a imagem ao quadro -->
+                            </div>
+                            <div class="col-md-6">
+                                <h3 class="about-title">Missão</h3>
+                                <p>Temos o propósito de desenvolver projetos com excelência em qualidade e alta performance para aprimorar habilidades e destacar talentos.</p>
+                                <h4 class="about-title">Subsistemas</h4>
+                                <ul id="about-list">
+                                    <li><i class="fas fa-check"></i> AAO - Comitê Administrativo</li>
+                                    <li><i class="fas fa-check"></i> CBD - Desenvolvimento de negócios</li>
+                                    <li><i class="fas fa-check"></i> DEV - Tecnologia da Informação</li>
+                                    <li><i class="fas fa-check"></i> DSG - Design</li>
+                                    <li><i class="fas fa-check"></i> FIN - Financeiro </li>
+                                    <li><i class="fas fa-check"></i> PMO – Gestão</li>
+                                    <li><i class="fas fa-check"></i> ADM – Administração</li>
+                                    <li><i class="fas fa-check"></i> CVT – Continous Variable Trannsmission</li>
+                                    <li><i class="fas fa-check"></i> DIR- Diretivo</li>
+                                    <li><i class="fas fa-check"></i> ELE – Eletrônica </li>
+                                    <li><i class="fas fa-check"></i> HRO – Recursos Humanos</li>
+                                    <li><i class="fas fa-check"></i> SPD – Suspensão e Direção</li>
+                                    <li><i class="fas fa-check"></i> TAO – Comitê Técnico </li>
+                                    <li><i class="fas fa-check"></i> BRK – Freio</li>
+                                    <li><i class="fas fa-check"></i> DAO - Comitê Informação</li>
+                                    <li><i class="fas fa-check"></i> ENG - Motor</li>
+                                    <li><i class="fas fa-check"></i> MKT – Marketing</li>
+                                    <li><i class="fas fa-check"></i> TRA - Transmissão</li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Nossas Especialidades 139 à 181-->
+                <div id="services-area">
+                    <div class="container">
+                        <div class="row">
+                                <div class="col-12">  
+                                    <h3 class="main-title">Nossas Especialidades</h3>
+                                </div>
+                                <div class="col-md-4 service-box">
+                                    <i class="fas fa-mobile-alt"></i>
+                                    <h4>Teams</h4>
+                                    <a href="https://teams.microsoft.com/_?culture=en-us&country=us#/school/conversations/Geral?threadId=19:bgRlWEMgYglkyEAm1KaRKuXhmeJmPgE_DusdsfxNmMg1@thread.tacv2&ctx=channel"
+                                    target="_blank">Siga para o canal geral do Teams.</a>
+                                    <!--<p>Siga para o canal geral do Teams.</p> -->
+                                </div>
+                                <div class="col-md-4 service-box">   <!-- fas fa-shopping-cart -->
+                                    <i class="fas fa-car-alt"></i>  
+                                    <h4>Velociraptor</h4>
+                                    <a href="https://www.asaas.com/c/116854498703" target="_blank">Contribuições.</a>
+                                </div>
+                                <div class="col-md-4 service-box">
+                                    <i class="fas fa-paint-brush"></i>
+                                    <h4>Resultados SAE</h4>
+                                    <a href="https://resultados.bajasaebrasil.online/" target="_blank">Siga o link para o site da SAE.</a>  
+                                </div>
+                                <div class="col-md-4 service-box">
+                                    <i class="fab fa-google"></i>
+                                    <h4>Subsistemas</h4>
+                                    <a href="Subsistemas.html" target="_blank">Conheça nossos Subsitemas.</a> 
+                                </div>
+                                <div class="col-md-4 service-box">
+                                    <i class="fas fa-hands-helping"></i>
+                                    <h4>Suporte</h4>
+                                    <a href="Subsistemas.html" target="_blank">Mande suas susgestões para podermos aprimorar o BAJA.</a> 
+                                </div>
+                                <div class="col-md-4 service-box">
+                                    <i class="fas fa-server"></i>
+                                    <h4>Configurações do Site</h4>
+                                    <a href="Subsistemas.html" target="_blank">Alteração do Site.</a>
+                                </div>
+                        </div>
+                    </div>
+
+                </div>      
+            </div>
+           <!--
+            <title>Upload de Arquivos</title>
+            <h1>Upload de Arquivos</h1>
+            <form action="/upload" method=post enctype=multipart/form-data>
+              <input type=file name=file>
+              <input type=submit value=Enviar>
+            </form>
+        -->
+    
+    </main>
+    <!-- Link Cod(Arquivo) JS-->
+    <script src="js/scripts.js"></script>
+    
+</body>
+</html>
